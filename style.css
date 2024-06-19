@@ -129,3 +129,43 @@ a {
     color: #1F2937;
     width: 750px;
 }
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    background-color: #3882F6;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 100px;
+}
+.signup {
+    background-color: #3882F6;
+    width: 130px;
+    height: 45px;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+.call {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.call1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+.call2 {
+    font-size: 18px;
+    color: #F9FAF8;
+}

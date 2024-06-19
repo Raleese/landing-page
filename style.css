@@ -6,7 +6,6 @@ body {
 }
 
 .container1 {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     padding-left: 200px;
@@ -22,24 +21,62 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
-
-ul {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-}
-
 .logo {
     padding-top: 10px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
-
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
 a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8pt;
+}
+.hero2 {
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    padding-top: 100px;
+}
+
+.section1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+.section2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section3 {
+    background-color: #3882F6;
+    padding: 5px;
+    width: 130px;
+    height: 45px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
 }
